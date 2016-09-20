@@ -1,0 +1,17 @@
+{
+  "name": "xwf-data-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getKeyArr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.15.0",
+    "pg": "^6.1.0",
+    "xlsx-to-json": "^0.2.4"
+  }
+}
