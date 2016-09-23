@@ -27,7 +27,7 @@ fsr('./project.json', function(err, data) {
 	// 检测文件夹是否存在
 	checkOutDir(cfg.outDir);
 	// 输出表格名数组
-	var sheetArr = cfg.outArr;
+	var sheetArr = cfg.schoolOutArr;
 	// getData(sheetArr);
 	_.map(sheetArr, school2Village);
 });

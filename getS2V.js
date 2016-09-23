@@ -25,7 +25,7 @@ fsr('./project.json', function(err, data) {
 	// console.log(cfg.preCode);
 	// 检测文件夹是否存在
 	checkOutDir(cfg.outDir);
-	var sheetArr = cfg.outArr;
+	var sheetArr = cfg.schoolOutArr;
 
 	main(sheetArr);
 });
@@ -61,7 +61,7 @@ function getSchoolArr(sheetName, cb) {
 
 
 function outPutJson(str) {
-	var outPath = './lib/xwf-s2v-data.js';
+	var outPath = './data/xwf-s2v-data.js';
 	fsw(outPath, str, function(err, data) {
 		console.log('-- output over --');
 	});

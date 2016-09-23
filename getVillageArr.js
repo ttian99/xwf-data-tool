@@ -25,7 +25,7 @@ fsr('./project.json', function(err, data) {
 	console.log(cfg.preCode);
 	// 检测文件夹是否存在
 	checkOutDir(cfg.outDir);
-	var sheetArr = cfg.outArr;
+	var sheetArr = cfg.villageOutArr;
 	_.map(sheetArr, function(item, id) {
 		var sheetName = item;
 		readSchoolArr(sheetName);
