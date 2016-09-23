@@ -5,7 +5,7 @@ var psql = require('./lib/psql.js');
 var _ = require('lodash');
 var cfg = null;
 var async = require('async');
-var v2sObj = require('./lib/xwf-v2s-data.js');
+var v2sObj = require('./data/xwf-v2s-data.js');
 
 var isSearch = false;
 
